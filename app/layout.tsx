@@ -26,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <head>
+        <meta name="yandex-verification" content="85c88ecf0c49a283" />
         {/* Слот для дополнительных пользовательских тегов */}
         <link rel="preload" as="image" href="/art/faro-table.png" fetchPriority="high" />
         <meta name="apple-mobile-web-app-title" content="Faro Casino" />
